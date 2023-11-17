@@ -83,7 +83,7 @@ stack_t *add_stackint_endd(stack_t **head, const int n)
 void free_stackk(stack_t *head)
 {
 	stack_t *current;
-	
+
 	current = head;
 	while (head)
 	{
